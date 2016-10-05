@@ -1,0 +1,1 @@
+Open the file Books.xml and save, transforming it with the file Books.xsl to produce BooksOut.xml. (It's odd that Word won't let you save this is a text file since that's what it is after transformation.)

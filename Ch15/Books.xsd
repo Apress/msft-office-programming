@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xsd:schema
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.vb-helper.com/bks"
+  xmlns="http://www.vb-helper.com/bks"
+  elementFormDefault="qualified"
+>
+
+  <xsd:element name="Books">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Book">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Title" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+              <xsd:element name="URL"   type="xsd:string" minOccurs="0" maxOccurs="1"/>
+              <xsd:element name="Image" type="xsd:string" minOccurs="0" maxOccurs="1" />
+              <xsd:element name="Price" type="xsd:string" minOccurs="0" maxOccurs="1" />
+              <xsd:element name="Pages" type="xsd:string" minOccurs="0" maxOccurs="1" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

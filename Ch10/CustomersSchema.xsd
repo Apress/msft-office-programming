@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2000/10/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element ref="Customers"/>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Customers">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="CustomerNumber" index-key="CustomerNumber " primary="no" unique="yes" clustered="no"/>
+<od:index index-name="PrimaryKey" index-key="CustomerNumber " primary="yes" unique="yes" clustered="no"/>
+<od:index index-name="CompanyName" index-key="CompanyName " primary="no" unique="no" clustered="no"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="CompanyName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="50"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="CustomerNumber" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes">
+<xsd:simpleType>
+<xsd:restriction base="xsd:integer"/>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

@@ -1,0 +1,6 @@
+Sub CopyIntoInbox()
+Const FILE_NAME As String = "C:\OfficeSmackdown\Src\Ch12\CodeFragment.txt"
+'Const FILE_NAME As String = "C:\OfficeSmackdown\Src\Ch12\TextFragment.doc"
+
+    Application.CopyFile FILE_NAME, "Notes"
+End Sub

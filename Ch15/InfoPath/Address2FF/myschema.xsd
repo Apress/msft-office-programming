@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:txtFirstName" minOccurs="0"/>
+				<xsd:element ref="my:txtLastName" minOccurs="0"/>
+				<xsd:element ref="my:txtStree" minOccurs="0"/>
+				<xsd:element ref="my:txtCity" minOccurs="0"/>
+				<xsd:element ref="my:cboState" minOccurs="0"/>
+				<xsd:element ref="my:txtZip" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="txtFirstName" type="my:requiredString"/>
+	<xsd:element name="txtLastName" type="my:requiredString"/>
+	<xsd:element name="txtStree" type="my:requiredString"/>
+	<xsd:element name="txtCity" type="my:requiredString"/>
+	<xsd:element name="cboState" type="my:requiredString"/>
+	<xsd:element name="txtZip" type="my:requiredString"/>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

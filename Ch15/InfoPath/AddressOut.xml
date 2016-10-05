@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.5" productVersion="11.0.5329" PIVersion="1.0.0.0" href="file:///C:\OfficeSmackdown\Src\Ch15\InfoPath\Address.xsn" ?><?mso-application progid="InfoPath.Document"?><my:myFields xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41" xml:lang="en-us">
+	<my:txtFirstName>Rod</my:txtFirstName>
+	<my:txtLastName>Stephens</my:txtLastName>
+	<my:txtStreet>1234 Programmer Way</my:txtStreet>
+	<my:txtCity>Bugsville</my:txtCity>
+	<my:cboState>OR</my:cboState>
+	<my:txtZip>12345</my:txtZip>
+</my:myFields>

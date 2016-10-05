@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Books xmlns="http://www.vb-helper.com/bks">
+    <Book>
+        <Title>Visual Basic .NET and XML</Title>
+        <URL>http://www.vb-helper.com/xml.htm</URL>
+        <Image>http://www.vb-helper.com/xml.jpg</Image>
+        <Price>$39.99</Price>
+    </Book>
+    <Book>
+        <Title>Ready-to-Run Visual Basic Algorithms</Title>
+        <URL>http://www.vb-helper.com/vba.htm</URL>
+        <Image>http://www.vb-helper.com/vba.jpg</Image>
+        <Price>$49.99</Price>
+    </Book>
+    <Book>
+        <Title>Custom Controls Library</Title>
+        <URL>http://www.vb-helper.com/ccl.htm</URL>
+        <Image>http://www.vb-helper.com/ccl.jpg</Image>
+        <Price>$49.99</Price>
+    </Book>
+    <Book>
+        <Title>Visual Basic Graphics Programming</Title>
+        <URL>http://www.vb-helper.com/vbgp.htm</URL>
+        <Image>http://www.vb-helper.com/vbgp.jpg</Image>
+        <Price>$49.99</Price>
+    </Book>
+</Books>
+

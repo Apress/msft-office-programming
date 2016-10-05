@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Books>
+    <Book Price="$49.99" Pages="395">
+        <Title>Ready-to-Run Visual Basic Algorithms</Title>
+    </Book>
+    <Book Price="$49.99" Pages="684">
+        <Title>Custom Controls Library</Title>
+    </Book>
+    <Book Price="$49.99" Pages="712">
+        <Title>Visual Basic Graphics Programming</Title>
+    </Book>
+</Books>
+

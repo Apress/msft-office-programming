@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is automatically created and modified by Microsoft Office InfoPath.
+Changes made to the file outside of InfoPath might be lost if the form template is modified in InfoPath.
+-->
+<xsf:xDocumentClass solutionVersion="1.0.0.8" productVersion="11.0.5329" solutionFormatVersion="1.0.0.0" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="myFields"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="1033"></xsf:property>
+					<xsf:property name="viewWidth" type="string" value="542px"></xsf:property>
+					<xsf:property name="componentId" type="string" value="6"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="script.vbs">
+				<xsf:fileProperties>
+					<xsf:property name="scriptType" type="string" value="userEvents"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="" minVersionToUpgrade="0.0.0.0"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:views default="View 1">
+		<xsf:view name="View 1" caption="View 1">
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties lastOpenView="view1.xsl" fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41" scriptLanguage="vbscript"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="Address" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+	<xsf:domEventHandlers>
+		<xsf:domEventHandler handlerObject="msoxd_my_txtZip" match="/my:myFields/my:txtZip"></xsf:domEventHandler>
+	</xsf:domEventHandlers>
+	<xsf:scripts language="vbscript">
+		<xsf:script src="script.vbs"></xsf:script>
+	</xsf:scripts>
+</xsf:xDocumentClass>

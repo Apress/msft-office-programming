@@ -1,0 +1,8 @@
+<my:myFields xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-08-08T15:13:41">
+	<my:txtFirstName/>
+	<my:txtLastName/>
+	<my:txtStreet/>
+	<my:txtCity/>
+	<my:cboState>AZ</my:cboState>
+	<my:txtZip/>
+</my:myFields>

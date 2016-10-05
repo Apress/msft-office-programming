@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Desserts>
+    <IceCream>
+        <Flavor>Chocolate</Flavor>
+        <Flavor>Vanilla</Flavor>
+        <Flavor>Strawberry</Flavor>
+    </IceCream>
+    <Cookie>
+        <Type>Chocolate Chip</Type>
+        <Type>Pecan Sandy</Type>
+    </Cookie>
+</Desserts>
